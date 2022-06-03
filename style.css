@@ -30,12 +30,14 @@
     background-color: #4B8673;
     color: #fff;
     font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .info-titulo {
-    font-size: 65px;
+    font-size: 4rem;
     font-family: 'Great Vibes', cursive;
-    margin-top: 70px;
+    
 }
 
 .seccion-datos {
@@ -131,8 +133,8 @@
     height: 40px;
     color: #fff;
     border-radius: 5px;
+    text-decoration: none;
     padding: 5px 10px;
-    font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -144,7 +146,7 @@
 
 .css-button-sharp--rose:hover {
     background: #fff;
-    color: #ccc
+    color: black
 }
 /* Galeria */ 
 
@@ -289,6 +291,13 @@ time {
         border-width: 8px 16px 8px 0;
         border-color: transparent #fff transparent transparent;
     }
+    .info-titulo {
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-family: 'Great Vibes', cursive;
+        padding: 10px;
+    }
 }
 
 
@@ -332,3 +341,5 @@ time {
         transform: translateX(-50%) scale(1);
     }
 }
+
+
